@@ -1,7 +1,7 @@
 #!/bin/bash
 
 K6_VERSION=v0.29.0
-LAYER_NAME='k6'
+LAYER_NAME='k6-2'
 
 REGIONS='
 ap-northeast-1

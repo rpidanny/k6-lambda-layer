@@ -14,7 +14,9 @@ You can add this layer to any Lambda function you want. `PATH` already includes 
 
 After the lambda layer has been uploaded, click on Layers and choose `Add a layer`, and `Provide a layer version ARN` and enter the following ARN (replace `AWS_REGION` with the region of your Lambda and `AWS_PROFILE` with your AWS account ID):
 
-`arn:aws:lambda:<AWS_REGION>:<AWS_PROFILE>:layer:k6:1`
+- `arn:aws:lambda:<AWS_REGION>:<AWS_PROFILE>:layer:k6:1` for [Amazon Linux](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) runtime.
+
+- `arn:aws:lambda:<AWS_REGION>:<AWS_PROFILE>:layer:k6-2:1` for [Amazon Linux 2](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) runtime.
 
 ## Simple example with Node.js
 
